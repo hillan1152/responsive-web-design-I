@@ -378,4 +378,12 @@ footer p {
     .services-info-img {
         display: none;
     }
+
+    .resources {
+        flex-flow: column;
+    }
+
+    .group1, .group2, .group3, .group4, .group5, .group6{
+        width: 100%;
+    }
 }
