@@ -77,13 +77,14 @@ body {
 .logo2 {
     display: none;
 }
+
 nav {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end; 
 	justify-content: space-evenly;
 	color: grey;
-    margin: 30px;
+    margin: 2%;
 
     
 }
@@ -94,13 +95,13 @@ nav {
 	align-content: flex-end;
 	justify-content: space-between;
 	flex-flow: wrap;
-	padding: 70px;
+    padding: 7%;
 }
 
 h1 {
 	font-size: 70px;
 	text-align: center;
-	margin-top: 85px;
+    margin-top: 8%;
 }
 
 .btn {
@@ -108,7 +109,7 @@ h1 {
 	border: 1px solid black;
 	padding: 5px 8px;
 	width: 130px;
-	margin-left: 90px;
+    margin-left: 90px;
 }
 
 .top-content {
@@ -159,14 +160,18 @@ footer {
         margin-left: auto;
         margin-right: auto;
         margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .logo {
         display: none;
+        order: -1;
+        flex-flow: wrap;
     }
 
     nav {
         width: 100%;
+        margin: 0;
     }
     
     .circle {
