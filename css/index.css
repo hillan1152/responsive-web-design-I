@@ -146,6 +146,82 @@ footer {
 	text-align: center;
 }
 
+/******** SERVICES PAGE *******/
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+.serve {
+	font-size: 30px;
+	display: flex;
+	margin-top: 40px;
+}
+
+.resources p {
+	width: 100%;
+}
+.resources {
+	border-top: 1px solid black;
+	margin-top: 40px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.group1, .group2, .group3, .group4, .group5, .group6{
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 48%;
+	padding: 2%;
+	margin-top: 4%;
+	height: 25%;
+}
+
+.resources button {
+	width: 38%;
+	height: 18%;
+	margin-top: 2%;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.facts {
+	border-top: 1px solid black;
+	margin-top: 4%;
+	display: flex;
+}
+
+.facts p {
+    width: 88%;
+    margin-left: 3%;
+}
+
+.facts h2 {
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.facts ul {
+	margin-top: 2%;
+	margin-left: 2%;
+    list-style-type: disc;
+    margin-left: 8%;
+}
+.services-info-img {
+    margin-top: 4%;
+    width: 40%;
+    margin: 4% 3%;
+}
+
+footer p {
+	margin-top: 8%;
+}
+
 
 /******** MEDIA QUERIES *******/
 
@@ -230,6 +306,27 @@ footer {
     .contact address {
         margin-left: 4%;
     }
+
+    /******* SERVICES PAGE *******/
+    .navigation {
+        margin-bottom: 4%;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .block1 {
+        margin: auto 3%;
+    }
+
+    .serve {
+        text-align: center;
+        justify-content: center;
+    }
+    .services-header-img {
+        display: none;
+    }
+
+
 }
 
 @media (max-width: 500px) {
@@ -262,7 +359,23 @@ footer {
         width: 100%;
         margin: 5% 0;
     }
+/******* SERVICES PAGE *******/
+
+    .navigation {
+        flex-flow: column;
+        align-items: center;
+        width: 100%;
+        line-height: 40px;
+    }
+
+    .navigation a {
+        border: 1px solid grey;
+        width: 90%;
+        text-align: center;
+    }
 
 
-
+    .services-info-img {
+        display: none;
+    }
 }
